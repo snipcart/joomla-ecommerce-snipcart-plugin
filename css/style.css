@@ -1,0 +1,43 @@
+.snipcart-total-items {
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+	border-radius:100px;
+	font-size: 14px;
+    margin-left: 19px;
+    padding-left: 6px;
+    padding-right: 6px;
+    position: relative;
+    top: -10px;
+	background:#555555;
+	color:#ffffff;}
+
+.snipcart-total-price {
+	margin-right: 7px;
+	display: inline-block;}
+	
+.snipcart-summary {
+	margin-bottom: 12px;
+    margin-top: 12px;
+	display:block;}
+	
+	
+#s5-snipcart-carticon {
+	height:31px;
+	width:31px;
+	cursor:pointer;
+	background:#cccccc;
+	display: inline-block;
+	padding:0px;}
+	
+#s5-snipcart-carticon.white {
+    background: url(../images/carticon.png)  no-repeat scroll 2px 4px / 77% auto rgba(0, 0, 0, 0);
+
+}	
+
+#s5-snipcart-carticon.black {
+    background: url(../images/carticon.png)  no-repeat scroll 2px -31px / 77% auto rgba(0, 0, 0, 0);
+
+}	
+
+.snipcart-total-items:empty {
+	display:none;}

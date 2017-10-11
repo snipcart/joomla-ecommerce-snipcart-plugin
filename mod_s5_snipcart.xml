@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0.0" client="site" method="upgrade">
+	<name>S5 Snipcart</name>
+	<author>Shape5.com</author>
+	<creationDate>May 2015</creationDate>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>Integrates with snipcart.com.  You will need to signup for a free account on snipcart.com and then enter your API key in the admin area of this module.</description>
+	<files>
+		<filename module="mod_s5_snipcart">mod_s5_snipcart.php</filename>
+		<folder>css</folder>
+		<folder>tmpl</folder>
+		<folder>images</folder>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">		
+				<field name="moduleclass_sfx" type="text" label="Module Suffix" default="" />
+				<field filter="raw" name="pretext" type="textarea" cols="40" rows="5" default="" label="Pre-Text" description="Enter any pre-text message." />	
+				<field name="" type="spacer" default="Instructions" label="Instructions: You will need to signup for a free account on snipcart.com and then enter your API key in the admin area of this module. Then simply publish the module to any position you desire the cart to show up in.  Lastly you'll have to add the snipcart code throughout your site.  Go to snipcart.com for more information on how to do this." description="" />
+				<field name="@spacer" type="spacer" default="" label="" description="" />   
+
+				<field name="s5_apikey" type="text" default="" size="5" label="API Key" description="Enter your API key here after your signup on snipcart.com for an account.  Go to your dashboard and you'll be able to retrieve your key from there" />
+				
+				<field name="s5_sc_cartpopup" type="radio" default="yes" label="Enable Cart Popup on Item Add" description="Choose whether to enable the cart to popup when an item is added or disable it.">
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+				<field name="s5_sc_showprice" type="radio" default="yes" label="Show Price?" description="Choose whether to show the price next to the cart or hide it.">
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+				<field name="s5_carticon" type="radio" default="black" label="White or Black Cart Icon?" description="Choose whether you desire a white or black cart icon.">
+					<option value="white">White</option>
+					<option value="black">Black</option>
+				</field>
+		
+			</fieldset>
+		</fields>	
+	</config>
+</extension>
