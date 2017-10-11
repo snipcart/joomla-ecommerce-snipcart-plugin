@@ -1,6 +1,6 @@
 <?php /**
  * @title		Shape 5 Snipcart
- * @version		1.0
+ * @version		1.1
  * @package		Joomla
  * @website		http://www.shape5.com
  * @copyright	Copyright (C) 2015 Shape 5 LLC. All rights reserved.
@@ -15,7 +15,7 @@
 defined('_JEXEC') or die('Restricted access');
 $document = JFactory::getDocument();
 $document->addCustomTag('<link rel="stylesheet" href="'.$url.'css/style.css" type="text/css" />');
-$document->addCustomTag('<link rel="stylesheet" href="https://cdn.snipcart.com/themes/base/snipcart.min.css" type="text/css" />');
+$document->addCustomTag('<link rel="stylesheet" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" />');
 JHtml::_('jquery.framework');
 ?>
 
@@ -25,7 +25,7 @@ JHtml::_('jquery.framework');
 	</div>	
 <?php } ?>
 
-<script type="text/javascript" id="snipcart" src="https://cdn.snipcart.com/scripts/snipcart.js"  <?php if ($s5_sc_cartpopup == "no") { ?>data-autopop="false"<?php } ?> data-api-key="<?php echo $s5_apikey ?>"></script>
+<script type="text/javascript" id="snipcart" src="https://cdn.snipcart.com/scripts/2.0/snipcart.js"  <?php if ($s5_sc_cartpopup == "no") { ?>data-autopop="false"<?php } ?> data-api-key="<?php echo $s5_apikey ?>"></script>
 
 <div class="snipcart-summary">
 	<?php if ($s5_sc_showprice == "yes") { ?><span class="snipcart-total-price"></span><?php } ?>

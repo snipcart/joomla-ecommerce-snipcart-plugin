@@ -1,6 +1,6 @@
 <?php /**
  * @title		Shape 5 Snipcart
- * @version		1.0
+ * @version		1.1
  * @package		Joomla
  * @website		http://www.shape5.com
  * @copyright	Copyright (C) 2015 Shape 5 LLC. All rights reserved.

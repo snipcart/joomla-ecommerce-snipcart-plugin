@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="4.0.0" client="site" method="upgrade">
-	<name>S5 Snipcart</name>
+	<name>S5 Snipcart V2</name>
 	<author>Shape5.com</author>
 	<creationDate>May 2015</creationDate>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<description>Integrates with snipcart.com.  You will need to signup for a free account on snipcart.com and then enter your API key in the admin area of this module.</description>
 	<files>
 		<filename module="mod_s5_snipcart">mod_s5_snipcart.php</filename>
